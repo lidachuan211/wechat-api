@@ -253,7 +253,7 @@ public class WeChatBot {
     /**
      * 启动微信监听
      */
-    public void start() {
+    public void  start() {
         this.api = new WeChatApiImpl(this);
         log.info("wechat-bot: {}", Constant.VERSION);
         api.login(config.autoLogin());
